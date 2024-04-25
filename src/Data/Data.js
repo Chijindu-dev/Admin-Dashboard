@@ -13,6 +13,9 @@ import {
 
 
 
+import img1 from "../img/img1.jpeg";
+import img2 from "../img/img2.jpeg";
+import img3 from "../img/img3.jpeg";
 
 
 
@@ -102,4 +105,27 @@ export const CardsData=[
         ],
 
     },
+]
+
+
+export const UpdatesData =[
+    {
+        img: img1,
+        name: 'Andrew Thomas',
+        noti: "has ordered Apple smart watch 2500mAh battery",
+        time: new Date() // Set time to the current Date object
+      },
+      {
+        img: img2,
+        name: 'James Bond',
+        noti: "has recieved samsung gadget for charging battery",
+        time: new Date() // Set time to the current Date object
+      },
+      {
+        img: img3,
+        name: 'iron man',
+        noti: "has ordered Apple smart watch,Samsung Gear 2500mAh battery",
+        time: new Date() // Set time to the current Date object
+      },     
+      
 ]
